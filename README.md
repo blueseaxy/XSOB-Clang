@@ -22,7 +22,7 @@ LLVM on Github: https://github.com/llvm/llvm-project
 3. Create C/CPP File
 -------------
 ```cpp
-  #include <stdio.h>
+  #include <iostream>
    int main(){
      // basic code 
     cout << "Hello World" << endl;

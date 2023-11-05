@@ -40,6 +40,16 @@ LLVM on Github: https://github.com/llvm/llvm-project
 
 # Usage for compiling kernel
 
+> don't forget to input your defconfig before building
+```bash
+  make -j$(nproc --all) \
+        ARCH=arm64 \
+        O=out \
+        CC=/path/bin/clang \
+        CROSS_COMPILE=arm64-linux-gnu- \
+        DEVICE_defconfig
+```
+
 Clang only:
 -------------
 

@@ -2,4 +2,14 @@
 
 How To Use?
 1. Extract first
-> tar -xvf <file>.tar.gz
+> tar -xvf FILE.tar.gz
+
+2. Change Permission to rwx
+> chmod -R 777 FILEPATH
+
+3. Create C/CPP File
+
+4. Compile it
+> ./CLANGPATH/bin/clang *.cpp -o OUTFILE
+
+5. Done

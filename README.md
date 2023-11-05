@@ -36,3 +36,12 @@ LLVM on Github: https://github.com/llvm/llvm-project
 
 5. Done
 --------
+
+
+# Usage for compiling kernel
+
+```bash
+  make -j$(nproc --all) \
+        O=out            \
+        CC=/path/bin/clang
+```

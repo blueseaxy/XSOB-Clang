@@ -24,7 +24,8 @@ LLVM on Github: https://github.com/llvm/llvm-project
 ```cpp
   #include <stdio.h>
    int main(){
-    printf("Hello World");
+     // basic code 
+    cout << "Hello World" << endl;
    }
 ```
 

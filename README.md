@@ -2,7 +2,8 @@
 
 # How To Use?
 
-# 1. Extract first
+1. Extract first
+------------
 ```bash
  tar -xvf FILE.tar.gz
 ```

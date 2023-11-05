@@ -62,7 +62,6 @@ Clang only:
 
 Combo Methode:
 --------------
-> Make sure to install
 
 arm64:
 ------

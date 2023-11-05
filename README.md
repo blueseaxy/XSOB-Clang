@@ -59,12 +59,6 @@ arm64:
 ```bash
 sudo apt install gcc-arch64-linux-gnu
 ```
-arm32:
-------
-```bash
-sudo apt install gcc-arm-linux-gnueabi-
-```
-
 ```bash
   make -j$(nproc --all) \
         ARCH=arm64 \
@@ -72,3 +66,17 @@ sudo apt install gcc-arm-linux-gnueabi-
         CC=/path/bin/clang \
         CROSS_COMPILE=arm64-linux-gnu-
 ```
+
+arm32:
+------
+```bash
+sudo apt install gcc-arm-linux-gnueabi-
+```
+```bash
+  make -j$(nproc --all) \
+        ARCH=arm \
+        O=out \
+        CC=/path/bin/clang \
+        CROSS_COMPILE=arm-linux-gnueabi-
+```
+

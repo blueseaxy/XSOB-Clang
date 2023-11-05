@@ -40,8 +40,35 @@ LLVM on Github: https://github.com/llvm/llvm-project
 
 # Usage for compiling kernel
 
+Clang only:
+-------------
+
+```bash
+   make -j$(nproc --all) \
+        ARCH=arm64 \
+        O=out \
+        CC=/path/bin/clang
+```
+
+Combo Methode:
+--------------
+> Make sure to install
+
+arm64:
+------
+```bash
+sudo apt install gcc-arch64-linux-gnu
+```
+arm32:
+------
+```bash
+sudo apt install gcc-arm-linux-gnueabi-
+```
+
 ```bash
   make -j$(nproc --all) \
-        O=out            \
-        CC=/path/bin/clang
+        ARCH=arm64 \
+        O=out \
+        CC=/path/bin/clang \
+        CROSS_COMPILE=arm64-linux-gnu-
 ```

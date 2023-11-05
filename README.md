@@ -5,7 +5,7 @@ How To Use?
 > tar -xvf FILE.tar.gz
 
 2. Change Permission to rwx
-> chmod -R 777 FILEPATH
+> chmod -R 700 FILEPATH
 
 3. Create C/CPP File
 

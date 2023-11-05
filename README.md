@@ -1,4 +1,5 @@
-## XSOB Clang-17
+XSOB Clang 
+=============
 
 # How To Use?
 
@@ -8,16 +9,26 @@
  tar -xvf FILE.tar.gz
 ```
 
-# 3. Change Permission to rwx
+2. Change Permission to rwx
+-------------
 ```bash
  chmod -R 700 FILEPATH
 ```
 
-# 3. Create C/CPP File
+3. Create C/CPP File
+-------------
+```cpp
+  #include <stdio.h>
+   int main(){
+    printf("Hello World");
+   }
+```
 
-# 4. Compile it
+4. Compile it
+----------------
 ```bash
 ./CLANGPATH/bin/clang *.cpp -o OUTFILE
 ```
 
-# 5. Done
+5. Done
+--------

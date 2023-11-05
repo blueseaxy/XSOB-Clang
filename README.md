@@ -16,7 +16,7 @@ LLVM on Github: https://github.com/llvm/llvm-project
 2. Change Permission to rwx
 -------------
 ```bash
- chmod -R 700 FILEPATH
+ chmod -R 700 PATH
 ```
 
 3. Create C/CPP File

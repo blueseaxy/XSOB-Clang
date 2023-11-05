@@ -2,6 +2,7 @@ XSOB Clang
 =============
 
 ```txt
+Based on LLVM X86_64 Linux
 LLVM on Github: https://github.com/llvm/llvm-project
 ```
 # How To Use?

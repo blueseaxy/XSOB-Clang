@@ -80,7 +80,7 @@ sudo apt install gcc-arch64-linux-gnu
 arm32:
 ------
 ```bash
-sudo apt install gcc-arm-linux-gnueabi-
+sudo apt install gcc-arm-linux-gnueabi
 ```
 ```bash
   make -j$(nproc --all) \

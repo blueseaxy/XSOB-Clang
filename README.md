@@ -74,7 +74,7 @@ sudo apt install gcc-arch64-linux-gnu
         ARCH=arm64 \
         O=out \
         CC=/path/bin/clang \
-        CROSS_COMPILE=arm64-linux-gnu-
+        CROSS_COMPILE=aarch64-linux-gnu-
 ```
 
 arm32:
